@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZQSelectWorkTimeView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    [ZQSelectWorkTimeView showSelectWorkTime:@"6.6" blockAction:^(NSString * _Nonnull time) {
+        
+        NSLog(@"%@",time);
+    }];
 }
 
 

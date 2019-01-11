@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EDC18BA2A9090F27FEB263 /* libPods-零到24时选择框.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B36100EC6AAECB33D799DB /* libPods-零到24时选择框.a */; };
 		1BA34BCF21E83C8800B41698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA34BCE21E83C8800B41698 /* AppDelegate.m */; };
 		1BA34BD221E83C8800B41698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA34BD121E83C8800B41698 /* ViewController.m */; };
 		1BA34BD521E83C8800B41698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA34BD321E83C8800B41698 /* Main.storyboard */; };
 		1BA34BD721E83C8900B41698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA34BD621E83C8900B41698 /* Assets.xcassets */; };
 		1BA34BDA21E83C8900B41698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA34BD821E83C8900B41698 /* LaunchScreen.storyboard */; };
 		1BA34BDD21E83C8900B41698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA34BDC21E83C8900B41698 /* main.m */; };
+		1BA34BE521E83DC100B41698 /* ZQSelectWorkTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA34BE421E83DC100B41698 /* ZQSelectWorkTimeView.m */; };
+		1BA34BEE21E841DC00B41698 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA34BED21E841DC00B41698 /* UIView+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09B36100EC6AAECB33D799DB /* libPods-零到24时选择框.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-零到24时选择框.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA34BCA21E83C8800B41698 /* 零到24时选择框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "零到24时选择框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA34BCD21E83C8800B41698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1BA34BCE21E83C8800B41698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		1BA34BD921E83C8900B41698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA34BDB21E83C8900B41698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA34BDC21E83C8900B41698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BA34BE321E83DC100B41698 /* ZQSelectWorkTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSelectWorkTimeView.h; sourceTree = "<group>"; };
+		1BA34BE421E83DC100B41698 /* ZQSelectWorkTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSelectWorkTimeView.m; sourceTree = "<group>"; };
+		1BA34BEC21E841DC00B41698 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		1BA34BED21E841DC00B41698 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		808F76BE9FD8177889758E39 /* Pods-零到24时选择框.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-零到24时选择框.release.xcconfig"; path = "Pods/Target Support Files/Pods-零到24时选择框/Pods-零到24时选择框.release.xcconfig"; sourceTree = "<group>"; };
+		ADC80A5979181E50C02C5D7F /* Pods-零到24时选择框.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-零到24时选择框.debug.xcconfig"; path = "Pods/Target Support Files/Pods-零到24时选择框/Pods-零到24时选择框.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EDC18BA2A9090F27FEB263 /* libPods-零到24时选择框.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				1BA34BCC21E83C8800B41698 /* 零到24时选择框 */,
 				1BA34BCB21E83C8800B41698 /* Products */,
+				62FA7EAA71FDF282D59415C9 /* Pods */,
+				EC29C01AA4A822D38D8FD3CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,10 @@
 		1BA34BCC21E83C8800B41698 /* 零到24时选择框 */ = {
 			isa = PBXGroup;
 			children = (
+				1BA34BE321E83DC100B41698 /* ZQSelectWorkTimeView.h */,
+				1BA34BE421E83DC100B41698 /* ZQSelectWorkTimeView.m */,
+				1BA34BEC21E841DC00B41698 /* UIView+Extend.h */,
+				1BA34BED21E841DC00B41698 /* UIView+Extend.m */,
 				1BA34BCD21E83C8800B41698 /* AppDelegate.h */,
 				1BA34BCE21E83C8800B41698 /* AppDelegate.m */,
 				1BA34BD021E83C8800B41698 /* ViewController.h */,
@@ -71,6 +88,23 @@
 			path = "零到24时选择框";
 			sourceTree = "<group>";
 		};
+		62FA7EAA71FDF282D59415C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADC80A5979181E50C02C5D7F /* Pods-零到24时选择框.debug.xcconfig */,
+				808F76BE9FD8177889758E39 /* Pods-零到24时选择框.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC29C01AA4A822D38D8FD3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B36100EC6AAECB33D799DB /* libPods-零到24时选择框.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BA34BE021E83C8900B41698 /* Build configuration list for PBXNativeTarget "零到24时选择框" */;
 			buildPhases = (
+				700D8D0516337311C5EABBB0 /* [CP] Check Pods Manifest.lock */,
 				1BA34BC621E83C8800B41698 /* Sources */,
 				1BA34BC721E83C8800B41698 /* Frameworks */,
 				1BA34BC821E83C8800B41698 /* Resources */,
+				857725E03207AFDA89A46D22 /* [CP] Embed Pods Frameworks */,
+				A3BA782A2C8F23E94272EA9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +173,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		700D8D0516337311C5EABBB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-零到24时选择框-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857725E03207AFDA89A46D22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-零到24时选择框/Pods-零到24时选择框-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BA782A2C8F23E94272EA9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-零到24时选择框/Pods-零到24时选择框-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BA34BC621E83C8800B41698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1BA34BD221E83C8800B41698 /* ViewController.m in Sources */,
+				1BA34BE521E83DC100B41698 /* ZQSelectWorkTimeView.m in Sources */,
 				1BA34BDD21E83C8900B41698 /* main.m in Sources */,
+				1BA34BEE21E841DC00B41698 /* UIView+Extend.m in Sources */,
 				1BA34BCF21E83C8800B41698 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +373,7 @@
 		};
 		1BA34BE121E83C8900B41698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC80A5979181E50C02C5D7F /* Pods-零到24时选择框.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +390,7 @@
 		};
 		1BA34BE221E83C8900B41698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808F76BE9FD8177889758E39 /* Pods-零到24时选择框.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
